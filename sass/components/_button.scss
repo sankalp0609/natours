@@ -1,5 +1,5 @@
 .btn {
-
+    &,
     &:link,
     &:visited {
         display: inline-block;
@@ -9,6 +9,10 @@
         border-radius: 100px;
         transition: all 0.15s;
         position: relative;
+
+        //change in button
+        border: none;
+        cursor: pointer;
     }
 
     &:hover {
